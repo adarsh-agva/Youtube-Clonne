@@ -25,6 +25,6 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: sudo npm install -g eslint --unsafe-perm=true --allow-root
-    - run: npm ci
-    - run: npm start
-    - run: npm build --if - present
+    - run: sudo npm ci
+    - run: sudo npm start
+    - run: sudo npm build --if - present
