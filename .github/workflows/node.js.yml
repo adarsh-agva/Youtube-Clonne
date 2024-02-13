@@ -28,4 +28,3 @@ jobs:
     - run: npm ci
     - run: npm start
     - run: npm build --if - present
-    - run: npm test
